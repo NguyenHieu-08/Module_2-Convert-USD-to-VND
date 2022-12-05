@@ -12,6 +12,7 @@ public class USDToVND {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter number: ");
         double n = scanner.nextDouble();
+        scanner.close();
         return n;
     }
 
